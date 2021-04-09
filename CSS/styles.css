@@ -1,3 +1,28 @@
+:root {
+  --primary-bg-colour: white;
+  --secondary-bg-colour: #e3f6f5;
+  --primary-font-colour: #272343;
+  --secondary-font-colour: #163172;
+}
+
+body {
+  background-color: var(--primary-bg-colour);
+  font-family: "Nunito", sans-serif;
+  color: var(--primary-font-colour);
+}
+.hero {
+  background-color: var(--secondary-bg-colour);
+}
+
 h1 {
-  color: gray;
+  font-size: 47px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.primary-button {
+  background-color: var(--primary-bg-colour);
+  border: 1px solid #272142;
 }
