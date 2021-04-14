@@ -7,22 +7,52 @@
 
 body {
   background-color: var(--primary-bg-colour);
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--primary-font-colour);
+  margin-bottom: 100px;
 }
 .hero {
   background-color: var(--secondary-bg-colour);
 }
 
 h1 {
-  font-size: 47px;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 94px;
+  color: var(--secondary-font-colour);
+}
+h2 {
+  font-size: 48px;
+  line-height: 48px;
+  padding: 20px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 28px;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 15px;
+  color: var(--secondary-font-colour);
+  opacity: 0.7;
 }
 
 .primary-button {
   background-color: var(--primary-bg-colour);
   border: 1px solid #272142;
+}
+.secondary-button {
+  background-color: var(--secondary-font-colour);
+  color: var(--primary-bg-colour);
+  border: 1px solid #272142;
+}
+
+.contact a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--secondary-font-colour);
+  text-decoration: none;
+}
+.contact a:hover {
+  opacity: 0.5;
 }
