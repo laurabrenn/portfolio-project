@@ -16,9 +16,9 @@ body {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 85px;
   font-weight: 800;
-  line-height: 70px;
+  line-height: 80px;
   color: var(--secondary-font-colour);
 }
 h2 {
@@ -57,7 +57,7 @@ h5 {
   opacity: 0.5;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1130px) {
   h1 {
     font-size: 55px;
     line-height: 52px;
