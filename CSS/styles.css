@@ -1,6 +1,7 @@
 :root {
   --primary-bg-colour: white;
   --secondary-bg-colour: #e3f6f5;
+  --nav-bg-colour: #bae8e8;
   --primary-font-colour: #272343;
   --secondary-font-colour: #163172;
 }
@@ -32,7 +33,7 @@ h3 {
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 20px;
   color: var(--secondary-font-colour);
   opacity: 0.7;
 }
@@ -57,9 +58,37 @@ h5 {
   opacity: 0.5;
 }
 
+.nav-bg {
+  background-color: var(--nav-bg-colour);
+}
+
 @media (max-width: 1130px) {
   h1 {
-    font-size: 55px;
-    line-height: 52px;
+    font-size: 70px;
+    line-height: 65px;
   }
+  h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  h1 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 40px;
+    line-height: 38px;
+  }
+}
+
+.pic {
+  background-image: url(/images/portrait.jpeg);
+  background-size: 400px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
 }
