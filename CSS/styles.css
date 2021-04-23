@@ -42,9 +42,12 @@ footer {
   margin-top: 20px;
   background-color: var(--secondary-bg-colour);
   text-align: center;
-  font-size: 20px;
   line-height: 1;
 }
+footer .icons {
+  font-size: 20px;
+}
+
 footer a {
   color: var(--secondary-font-colour);
   text-decoration: none;
@@ -86,6 +89,11 @@ footer a:hover {
 
 .nav-bg {
   background-color: var(--secondary-font-colour);
+}
+
+.coded-by {
+  font-family: monospace;
+  font-size: 8;
 }
 
 @media (max-width: 1130px) {
