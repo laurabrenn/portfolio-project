@@ -113,6 +113,7 @@ footer a:hover {
 }
 .CV .subtitle {
   list-style: none;
+  font-weight: 500;
 }
 
 @media (max-width: 1130px) {
