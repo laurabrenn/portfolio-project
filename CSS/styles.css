@@ -11,13 +11,19 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--primary-font-colour);
   padding-top: 56px;
-  max-width: 1500px;
+  min-height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
 }
 
 h1 {
   font-size: 85px;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 80px;
   color: var(--secondary-font-colour);
 }
@@ -76,6 +82,9 @@ footer a:hover {
   color: var(--primary-bg-colour);
   border: 1px solid #272142;
 }
+.secondary-button:hover {
+  color: var(--secondary-bg-colour);
+}
 
 .contact a {
   letter-spacing: 2px;
@@ -96,13 +105,23 @@ footer a:hover {
   font-size: 8;
 }
 
+.CV .title {
+  font-weight: bold;
+}
+.CV .time {
+  font-style: italic;
+}
+.CV .subtitle {
+  list-style: none;
+}
+
 @media (max-width: 1130px) {
   h1 {
     font-size: 70px;
     line-height: 65px;
   }
   h5 {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -117,5 +136,8 @@ footer a:hover {
   h1 {
     font-size: 40px;
     line-height: 38px;
+  }
+  h2 {
+    font-size: 35px;
   }
 }
