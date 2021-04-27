@@ -107,13 +107,14 @@ footer a:hover {
 
 .CV .title {
   font-weight: bold;
+  font-size: 18px;
 }
 .CV .time {
   font-style: italic;
 }
 .CV .subtitle {
   list-style: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (max-width: 1130px) {
